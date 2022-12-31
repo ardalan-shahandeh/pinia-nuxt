@@ -1,0 +1,18 @@
+.task h3 , .task .icons {
+  display: inline-block;
+}
+
+.task .icons {
+  text-align: right;
+}
+
+.task i {
+  font-size: 1.4em;
+  margin-left: 6px;
+  cursor: pointer;
+  color: #bbb;
+}
+
+.task i.active {
+  color: #ff005d;
+}
